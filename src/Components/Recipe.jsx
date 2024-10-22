@@ -2,7 +2,7 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
 
-const Recipe = ({ recipe }) => {
+const Recipe = ({ recipe,handleAddToSideBer }) => {
     const { image, recipe_name, description, ingredients, preparing_time, calories } = recipe;
     return (
         <div>
@@ -14,7 +14,7 @@ const Recipe = ({ recipe }) => {
                 </figure>
                 <div class=" px-10">
                     <h2 class="card-title">{recipe_name}</h2>
-                    <p>{ }description</p>
+                    <p>{description }</p>
                     <hr className=" my-4" />
                     <div class="">
                         {
@@ -24,12 +24,15 @@ const Recipe = ({ recipe }) => {
                     <hr className="my-4" />
 
                     <div className="flex gap-10">
-                        <p><i class="fa-regular fa-clock"></i> {preparing_time}</p>
+                        <p><i class="fa-regular fa-clock"></i> {preparing_time} min</p>
                         <p><i class="fa fa-fire-flame-simple"></i> {calories}</p>
                     </div>
                 </div>
                 <div>
-                    <button className="btn outline-none border-none bg-[#0BE58A] rounded-3xl text-black font-bold mx-3 my-4">Want to Cook</button>
+                    <button 
+                    className="btn outline-none border-none bg-[#0BE58A] rounded-3xl text-black font-bold mx-3 my-4"
+                    onClick={()=>handleAddToSideBer(recipe)}
+                    >Want to Cook</button>
 
                 </div>
             </div>

@@ -5,8 +5,8 @@
         "image": "https://i.ibb.co.com/zSDWqLn/1.jpg",
         "description": "A flavorful grilled chicken with fresh basil leaves and a soy sauce marinade.",
         "ingredients": ["550 g chicken", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
-        "preparing_time": "30 min",
-        "calories": "320 calories"
+        "preparing_time": 30,
+        "calories": 320
       },
       {
         "recipe_id": 2,
@@ -14,8 +14,8 @@
         "image": "https://i.ibb.co.com/Tq1xwzv/2.jpg",
         "description": "Creamy Italian risotto with wild mushrooms and Parmesan.",
         "ingredients": ["300 g Arborio rice", "200 g mushrooms", "100 g Parmesan", "500 ml vegetable broth"],
-        "preparing_time": "40 min",
-        "calories": "400 calories"
+        "preparing_time": 40,
+        "calories": 400 
       },
       {
         "recipe_id": 3,
@@ -23,8 +23,8 @@
         "image": "https://i.ibb.co.com/qJkGvbz/3.jpg",
         "description": "Simple and healthy avocado toast with a sprinkle of red pepper flakes.",
         "ingredients": ["2 slices of bread", "1 ripe avocado", "1 tsp olive oil", "Red pepper flakes"],
-        "preparing_time": "10 min",
-        "calories": "250 calories"
+        "preparing_time": 10,
+        "calories": 250 
       },
       {
         "recipe_id": 4,
@@ -32,8 +32,8 @@
         "image": "https://i.ibb.co.com/Y75wmnG/4.jpg",
         "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
         "ingredients": ["400 g spaghetti", "200 g pancetta", "3 large eggs", "100 g Parmesan cheese"],
-        "preparing_time": "25 min",
-        "calories": "450 calories"
+        "preparing_time": 25,
+        "calories": 450
       },
       {
         "recipe_id": 5,
@@ -41,8 +41,8 @@
         "image": "https://i.ibb.co.com/T8tv8K4/5.jpg",
         "description": "A spicy and aromatic Thai curry made with green curry paste and coconut milk.",
         "ingredients": ["500 g chicken", "200 ml coconut milk", "2 tbsp green curry paste", "100 g green beans"],
-        "preparing_time": "35 min",
-        "calories": "380 calories"
+        "preparing_time": 35,   
+        "calories": 380
       },
       {
         "recipe_id": 6,
@@ -50,8 +50,8 @@
         "image": "https://i.ibb.co.com/HpMZ5xJ/6.jpg",
         "description": "Quick and healthy stir-fried vegetables with a touch of soy sauce.",
         "ingredients": ["300 g broccoli", "150 g bell peppers", "100 g carrots", "2 tbsp soy sauce"],
-        "preparing_time": "15 min",
-        "calories": "180 calories"
+        "preparing_time": 15,
+        "calories": 180
       }
     ]
 
