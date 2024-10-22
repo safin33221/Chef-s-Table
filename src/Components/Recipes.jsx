@@ -13,7 +13,7 @@ const Recipes = ({handleAddToSideBer}) => {
     }, [])
 
     return (
-        <div className="w-2/3  grid grid-cols-1 lg:grid-cols-2 gap-4 object-cover ">
+        <div className="lg:w-2/3  grid grid-cols-1 lg:grid-cols-2 gap-4 object-cover ">
             {
                 recipes.map(recipe => <Recipe
                     

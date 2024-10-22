@@ -53,7 +53,7 @@ const App = () => {
 
       {/* out recipes */}
       <OurRecipes></OurRecipes>
-      <section className="flex gap-4">
+      <section className="flex flex-col-reverse lg:flex-row gap-4 ">
         <Recipes
           handleAddToSideBer={handleAddToSideBer}
         ></Recipes>

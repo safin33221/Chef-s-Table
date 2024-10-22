@@ -4,7 +4,7 @@
 
 const Sidebar = ({ recAddToSber,handlePrepared,preparedRecipe,totalTime,caloris }) => {
     return (
-        <div className="w-1/3 border-2 h-fit">
+        <div className="lg:w-1/3 border-2 h-fit">
             <div className="text-center py-3 text-2xl font-bold">
                 <h1> Want to cook: {recAddToSber.length}</h1>
 

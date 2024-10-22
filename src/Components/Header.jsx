@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable react/no-unknown-property */
 
 
@@ -24,18 +25,20 @@ const Header = () => {
                         <ul
                             tabindex="0"
                             class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            <li><a>Item 1</a></li>
-                            <li><a href="">item3</a></li>
-                            <li><a>Item 3</a></li>
+                            <li><a>Home</a></li>
+                            <li><a>Recipes</a></li>
+                            <li><a>About</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-xl">daisyUI</a>
+                    <a class="btn btn-ghost text-xl">
+                        Chef's Tables
+                    </a>
                 </div>
                 <div class="navbar-center hidden lg:flex justify-center mx-auto w-fit">
                     <ul class="menu menu-horizontal px-1">
-                        <li><a>Item 1</a></li>
-                        <li><a href="">item3</a></li>
-                        <li><a>Item 3</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Recipes</a></li>
+                        <li><a>About</a></li>
                     </ul>
                 </div>
 
